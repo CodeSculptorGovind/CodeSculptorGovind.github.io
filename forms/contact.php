@@ -7,6 +7,9 @@
   */
 
   // Replace contact@example.com with your real receiving email address
+
+  echo "Thank YOu for Contacting.Now this fetaure is not working you can Messgae me directly."
+    die;
   $receiving_email_address = 'singhgovind7304@gmail.com';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
